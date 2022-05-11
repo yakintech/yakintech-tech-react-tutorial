@@ -1,0 +1,5 @@
+11 Mayıs
+
+https://www.w3schools.com/w3css/w3css_templates.asp
+* Architect Template isimli template i react e çevir ve ekranda componentlere böl!
+* JSX nedir okuma yap
