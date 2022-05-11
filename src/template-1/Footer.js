@@ -1,11 +1,15 @@
 
-
-
 function Footer(){
-    return <>
+
+  //one way binding
+  var name = "Çağatay";
+
+
+
+    return (<>
 <footer className="w3-center w3-light-grey w3-padding-32">
   <p>
-    Powered by{" "}
+    Powered by {name}
     <a
       href="https://www.w3schools.com/w3css/default.asp"
       title="W3.CSS"
@@ -17,7 +21,10 @@ function Footer(){
   </p>
 </footer>
 
-    </>
+    </>)
 }
 
 export default Footer
+
+
+
