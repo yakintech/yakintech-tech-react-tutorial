@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from './template-1/Footer'
+import Navbar from './template-1/Navbar'
+import PageContent from './template-1/PageContent'
+import Slide from './template-1/Slide'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+  return (<>
+    <Navbar></Navbar>
+    <Slide></Slide>
+    <PageContent></PageContent>
+    <Footer></Footer>
+  </>)
+
+
 }
 
 export default App;

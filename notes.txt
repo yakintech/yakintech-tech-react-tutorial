@@ -1,0 +1,6 @@
+node_modules => npm paketlerinin olduğu klasör
+public => tarayıcının page sorunce üzerinde göreceği dosyalarımız ( js vasıtasıyla RENDER OLMAYAN HTML BLOKLARI)
+src => react uygulamamın(componentlerin, hookların yani herşeyin) olduğu genel klasör
+
+
+component isimlerini BÜYÜK HARFLE VER - TÜRKÇE KARAKTER KULLANMA!!!
