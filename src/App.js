@@ -1,18 +1,10 @@
-import Footer from './template-1/Footer'
-import Navbar from './template-1/Navbar'
-import PageContent from './template-1/PageContent'
-import Slide from './template-1/Slide'
+import ArrayStateSample from "./stateSample/ArrayStateSample"
 
 function App() {
-
   return (<>
-    <Navbar></Navbar>
-    <Slide></Slide>
-    <PageContent></PageContent>
-    <Footer></Footer>
-  </>)
-
-
+    <ArrayStateSample></ArrayStateSample>
+  </>
+  )
 }
 
-export default App;
+export default App
