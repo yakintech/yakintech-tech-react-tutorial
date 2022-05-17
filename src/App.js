@@ -1,8 +1,9 @@
-import ArrayStateSample from "./stateSample/ArrayStateSample"
+import CategoryTable from "./stateSample/CategoryTable"
+import InputStateSample from "./stateSample/InputStateSample"
 
 function App() {
   return (<>
-    <ArrayStateSample></ArrayStateSample>
+    <CategoryTable></CategoryTable>
   </>
   )
 }
