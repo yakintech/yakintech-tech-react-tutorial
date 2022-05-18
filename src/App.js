@@ -1,9 +1,10 @@
-import CategoryTable from "./stateSample/CategoryTable"
-import InputStateSample from "./stateSample/InputStateSample"
+import UserList from "./fetchSample/UserList"
 
 function App() {
+
+
   return (<>
-    <CategoryTable></CategoryTable>
+    <UserList></UserList>
   </>
   )
 }
