@@ -1,10 +1,12 @@
+import AddCategory from "./fetchSample/AddCategory"
+import AddCategoryWithAxios from "./fetchSample/AddCategoryWithAxios"
 import UserList from "./fetchSample/UserList"
 
 function App() {
 
 
   return (<>
-    <UserList></UserList>
+    <AddCategoryWithAxios></AddCategoryWithAxios>
   </>
   )
 }
