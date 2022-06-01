@@ -6,7 +6,6 @@ function ToDoList() {
     var todos = useSelector(todoState => todoState);
 
     var dispatch = useDispatch();
-    var dispatch2 = useDispatch();
 
 
     const deleteToDo = (item) => {
