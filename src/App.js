@@ -6,6 +6,8 @@ import ProductDataGrid from "./materialSample/ProductDataGrid"
 import IdHooksSample from "./otherHooks/IdHooksSample"
 import LayoutHookSample from "./otherHooks/LayoutHookSample"
 import RefHookSample from "./otherHooks/RefHookSample"
+import AddToDo from "./reduxSample/AddToDo"
+import ToDoList from "./reduxSample/ToDoList"
 import AboutPage from "./routerSample/AboutPage"
 import CartPage from "./routerSample/CartPage"
 import ContactPage from "./routerSample/ContactPage"
@@ -27,11 +29,11 @@ function App() {
 
   return (<>
     <h1>Site Header</h1>
-    <h1>Cart Count: {cart.length}</h1>
-    <h1>Total Price: {totalPrice.toFixed(2)}</h1>
+    {/* <h1>Cart Count: {cart.length}</h1>
+    <h1>Total Price: {totalPrice.toFixed(2)}</h1> */}
 
     <ul>
-      <li><Link to='/'>Home</Link></li>
+      {/* <li><Link to='/'>Home</Link></li>
       <li><Link to='/hakkimizda'>About</Link></li>
       <li><Link to='/iletisim'>Contact</Link></li>
       <li><Link to='/urunler'>Products</Link></li>
@@ -41,7 +43,9 @@ function App() {
       <li><Link to='/cart'>Cart Sample</Link></li>
       <li><Link to='/refsample'>Ref Sample</Link></li>
       <li><Link to='/layouthook'>Layout Hook Sample</Link></li>
-      <li><Link to='/idhook'>Id Hook Sample</Link></li>
+      <li><Link to='/idhook'>Id Hook Sample</Link></li> */}
+      <li><Link to='/addtodo'>Add Todo</Link></li>
+      <li><Link to='/todolist'>Todo List</Link></li>
 
 
 
@@ -60,6 +64,9 @@ function App() {
       <Route path="/refsample" element={<RefHookSample/>}></Route>
       <Route path="/layouthook" element={<LayoutHookSample/>}></Route>
       <Route path="/idhook" element={<IdHooksSample/>}></Route>
+      <Route path="/todolist" element={<ToDoList/>}></Route>
+      <Route path="/addtodo" element={<AddToDo/>}></Route>
+
 
 
 
