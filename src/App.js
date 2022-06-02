@@ -8,6 +8,7 @@ import LayoutHookSample from "./otherHooks/LayoutHookSample"
 import RefHookSample from "./otherHooks/RefHookSample"
 import AddToDo from "./reduxSample/AddToDo"
 import ToDoList from "./reduxSample/ToDoList"
+import RefParent from "./refSample/RefParent"
 import AboutPage from "./routerSample/AboutPage"
 import CartPage from "./routerSample/CartPage"
 import ContactPage from "./routerSample/ContactPage"
@@ -44,8 +45,10 @@ function App() {
       <li><Link to='/refsample'>Ref Sample</Link></li>
       <li><Link to='/layouthook'>Layout Hook Sample</Link></li>
       <li><Link to='/idhook'>Id Hook Sample</Link></li> */}
-      <li><Link to='/addtodo'>Add Todo</Link></li>
-      <li><Link to='/todolist'>Todo List</Link></li>
+      {/* <li><Link to='/addtodo'>Add Todo</Link></li>
+      <li><Link to='/todolist'>Todo List</Link></li> */}
+      <li><Link to='/refsample'>Ref Sample</Link></li>
+
 
 
 
@@ -66,6 +69,7 @@ function App() {
       <Route path="/idhook" element={<IdHooksSample/>}></Route>
       <Route path="/todolist" element={<ToDoList/>}></Route>
       <Route path="/addtodo" element={<AddToDo/>}></Route>
+      <Route path="/refsample" element={<RefParent/>}></Route>
 
 
 

@@ -9,7 +9,6 @@ function CartPage() {
     const removeItem = (id) => {
 
         let newCart = cart.filter(q => q.id != id);
-
         setCart(newCart);
     }
 
